@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { NgxsModule } from '@ngxs/store';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AppState } from './app.state';
+import { environment } from '@/environments/environment';
 
 @NgModule({
   declarations: [
