@@ -1,0 +1,19 @@
+<h1> Dishes </h1>
+
+<div class="section-structure">
+
+  <div class="list">
+  <!--  <div *ngFor="let dish of dishes$ | async" class="consumption">
+      <a [routerLink]="['/consumption', consumption.id]" routerLinkActive="active"> {{consumption.name }} </a>
+    </div> -->
+    <div class="add-entity">
+      <a routerLink="new" routerLinkActive="active"><span>+</span> Add dish </a>
+    </div>
+
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+
+  </div>
+</div>
+
